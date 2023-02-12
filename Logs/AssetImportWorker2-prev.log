@@ -1,0 +1,859 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'fr' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/aaama/jam
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+63369
+Successfully changed project path to: C:/Users/aaama/jam
+C:/Users/aaama/jam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11688] Host "[IP] 192.168.95.1 [Port] 0 [Flags] 2 [Guid] 1900504373 [EditorId] 1900504373 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NV4FDQM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11688] Host "[IP] 192.168.95.1 [Port] 0 [Flags] 2 [Guid] 1900504373 [EditorId] 1900504373 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NV4FDQM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 73.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aaama/jam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   27.21.14.6221
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003849 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.534 seconds
+Domain Reload Profiling:
+	ReloadAssembly (534ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (385ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (88ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004007 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Domain Reload Profiling:
+	ReloadAssembly (803ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (622ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (114.1 KB). Loaded Objects now: 3549.
+Memory consumption went from 110.7 MB to 110.5 MB.
+Total: 3.053100 ms (FindLiveObjects: 0.218800 ms CreateObjectMapping: 0.095000 ms MarkObjects: 2.630000 ms  DeleteObjects: 0.108300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1475021.423434 seconds.
+  path: Assets/JamLego/Prefabs/Button.prefab
+  artifactKey: Guid(058a450c411c35b498643b237d01b905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/Button.prefab using Guid(058a450c411c35b498643b237d01b905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1723a149f7ffe38040939b360cd43f65') in 0.125225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6596.356259 seconds.
+  path: Assets/JamLego/Prefabs/lanceuse_de_fenetre.fbx
+  artifactKey: Guid(edc81df2cefc9864fb8a173731a63d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/lanceuse_de_fenetre.fbx using Guid(edc81df2cefc9864fb8a173731a63d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ce60ae0e06e2c37b4fb039104fcb49') in 0.130272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.564844 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6c141090ca2ca7feb2dc2b38d03de5') in 0.128527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.565412 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbc65497dc0dcae2e078667c70ba0de') in 0.074267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.777628 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238cf52882f8042028bdfbd31bed3ee9') in 0.071631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.967534 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862b24b56248a7d0275805089951a068') in 0.052319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.495343 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee76f77af1bed70242e0912c6355311c') in 0.045488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.829025 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb81844919501eb0344ac843d5d30377') in 0.046966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.602639 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb685bb7945991eff73f6425c3e3235e') in 0.049449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.169314 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738b4a3b9b73af8987b73ad44a521b9f') in 0.046114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.106923 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61aaae4482e5b03e2541390ed2b4d6c6') in 0.070872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.751504 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70cd46726146fd4776965f0cadca166') in 0.056264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.783331 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d89c22ebd20152706eee695ab568bf7') in 0.064028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.211765 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295a16eb83a4ac44578aacbd4af8ab91') in 0.047847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.383221 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dfe882abff81b7e93d42931cf8b814') in 0.066654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.866429 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156d3ab00020cfa2fe2d6ad966bca642') in 0.060660 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004573 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Domain Reload Profiling:
+	ReloadAssembly (896ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (677ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (83.1 KB). Loaded Objects now: 3600.
+Memory consumption went from 126.8 MB to 126.8 MB.
+Total: 3.040500 ms (FindLiveObjects: 0.216300 ms CreateObjectMapping: 0.083900 ms MarkObjects: 2.584600 ms  DeleteObjects: 0.154300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003363 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.867 seconds
+Domain Reload Profiling:
+	ReloadAssembly (868ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (676ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (80.8 KB). Loaded Objects now: 3603.
+Memory consumption went from 126.8 MB to 126.8 MB.
+Total: 2.303700 ms (FindLiveObjects: 0.222700 ms CreateObjectMapping: 0.078300 ms MarkObjects: 1.904500 ms  DeleteObjects: 0.096700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 76.131584 seconds.
+  path: Assets/JamLego/_TerrainAutoUpgrade/layer_Grasscc0f254a2c535401.terrainlayer
+  artifactKey: Guid(f0edaeb0191a2d24daf59cb457f995b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/_TerrainAutoUpgrade/layer_Grasscc0f254a2c535401.terrainlayer using Guid(f0edaeb0191a2d24daf59cb457f995b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b422f81177356857637d8d5b1cf0af') in 0.048558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.387821 seconds.
+  path: Assets/JamLego/Scenes/MainMenu.unity
+  artifactKey: Guid(487d3c3289986a34e83a0fe333ebb275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Scenes/MainMenu.unity using Guid(487d3c3289986a34e83a0fe333ebb275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad84e8e652accd3c6dd1883d41937aa5') in 0.005378 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003908 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.846 seconds
+Domain Reload Profiling:
+	ReloadAssembly (847ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (656ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (80.7 KB). Loaded Objects now: 3610.
+Memory consumption went from 126.8 MB to 126.8 MB.
+Total: 2.561500 ms (FindLiveObjects: 0.242300 ms CreateObjectMapping: 0.103900 ms MarkObjects: 2.115200 ms  DeleteObjects: 0.098500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.441233 seconds.
+  path: Assets/JamLego/Scenes/Map1.unity
+  artifactKey: Guid(29fbf23c34a89ea4e80e68c111355e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Scenes/Map1.unity using Guid(29fbf23c34a89ea4e80e68c111355e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd55ba3afb3089dab03dea318ce9d433') in 0.009361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.841589 seconds.
+  path: Assets/JamLego/Scenes/SampleScene.unity
+  artifactKey: Guid(3dd03d4f7b00d8c46beb0332620361e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Scenes/SampleScene.unity using Guid(3dd03d4f7b00d8c46beb0332620361e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dda22b6634fe36de6caf019c77fcd8') in 0.005527 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004033 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.847 seconds
+Domain Reload Profiling:
+	ReloadAssembly (847ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (647ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (80.7 KB). Loaded Objects now: 3613.
+Memory consumption went from 126.8 MB to 126.8 MB.
+Total: 2.555800 ms (FindLiveObjects: 0.249400 ms CreateObjectMapping: 0.167300 ms MarkObjects: 2.029900 ms  DeleteObjects: 0.107700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81.070906 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156d3ab00020cfa2fe2d6ad966bca642') in 0.135704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.649799 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Armature|ArmatureAction.001' used by the Animation component 'Player' must be marked as Legacy.
+The AnimationClip 'Armature|ArmatureAction.001' used by the Animation component 'Player' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2050]
+
+The AnimationClip 'Armature|ArmatureAction.001' used by the Animation component 'Player' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2050]
+
+The AnimationClip 'Armature|ArmatureAction.001' used by the Animation component 'Player' must be marked as Legacy.
+ -> (artifact id: 'd8b965564a4e5ce3d9de72aea4f74bd5') in 0.067378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.565651 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Button1AnimIdle' used by the Animation component 'Player' must be marked as Legacy.
+The AnimationClip 'Button1AnimIdle' used by the Animation component 'Player' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2050]
+
+The AnimationClip 'Button1AnimIdle' used by the Animation component 'Player' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2050]
+
+The AnimationClip 'Button1AnimIdle' used by the Animation component 'Player' must be marked as Legacy.
+ -> (artifact id: '1338f2c68bd0976630a08f0023b0262b') in 0.070310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.145363 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Button1AnimPush' used by the Animation component 'Player' must be marked as Legacy.
+The AnimationClip 'Button1AnimPush' used by the Animation component 'Player' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2050]
+
+The AnimationClip 'Button1AnimPush' used by the Animation component 'Player' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2050]
+
+The AnimationClip 'Button1AnimPush' used by the Animation component 'Player' must be marked as Legacy.
+ -> (artifact id: 'f995276d8d020cd5ba41471e9e257029') in 0.065767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.529852 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ebaf198b3ff549427377a1236db3ca') in 0.059975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.510825 seconds.
+  path: Assets/JamLego/Prefabs/playerWalke.controller
+  artifactKey: Guid(3052a0fd455e18d4abe25f9637d53c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/playerWalke.controller using Guid(3052a0fd455e18d4abe25f9637d53c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de595e6681e7edeeae13054c3dd917e0') in 0.008436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 251.799411 seconds.
+  path: Assets/JamLego/Prefabs/lanceuse_de_fenetre 1.fbx
+  artifactKey: Guid(2b3fbfa1f7b8ce74297a57fbe0f50aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/lanceuse_de_fenetre 1.fbx using Guid(2b3fbfa1f7b8ce74297a57fbe0f50aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe1684917c40733b460d56971a05abc') in 0.070953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.932693 seconds.
+  path: Assets/JamLego/Prefabs/MapUtils.prefab
+  artifactKey: Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/MapUtils.prefab using Guid(d6d44316c2920574fb2d28bfa9c3e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (playerWalke) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (playerWalke) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '1ca6c0c4e83e783cbb07d7f952d892ec') in 0.054868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.708368 seconds.
+  path: Assets/JamLego/Scenes/SampleScene/NavMesh.asset
+  artifactKey: Guid(5eb2da9f4d9c93146835e57f93a3bf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Scenes/SampleScene/NavMesh.asset using Guid(5eb2da9f4d9c93146835e57f93a3bf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b577ef9fa36a2c7fe4bfb98c4e6771') in 0.008093 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003746 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Domain Reload Profiling:
+	ReloadAssembly (944ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (737ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (309ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (83.1 KB). Loaded Objects now: 3616.
+Memory consumption went from 127.0 MB to 127.0 MB.
+Total: 3.012800 ms (FindLiveObjects: 0.230000 ms CreateObjectMapping: 0.090500 ms MarkObjects: 2.533900 ms  DeleteObjects: 0.157100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003621 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (904ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (694ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (80.8 KB). Loaded Objects now: 3619.
+Memory consumption went from 127.0 MB to 127.0 MB.
+Total: 2.430900 ms (FindLiveObjects: 0.233500 ms CreateObjectMapping: 0.078400 ms MarkObjects: 1.982600 ms  DeleteObjects: 0.135300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 129.355061 seconds.
+  path: Assets/JamLego/Prefabs/lanceuse_de_fenetre 1.fbx
+  artifactKey: Guid(2b3fbfa1f7b8ce74297a57fbe0f50aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JamLego/Prefabs/lanceuse_de_fenetre 1.fbx using Guid(2b3fbfa1f7b8ce74297a57fbe0f50aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff82b405c7c09d532b94d98b0d7ea077') in 0.138670 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003800 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaama\jam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Domain Reload Profiling:
+	ReloadAssembly (934ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (734ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (80.9 KB). Loaded Objects now: 3622.
+Memory consumption went from 127.0 MB to 127.0 MB.
+Total: 2.593900 ms (FindLiveObjects: 0.220600 ms CreateObjectMapping: 0.106300 ms MarkObjects: 2.130100 ms  DeleteObjects: 0.135700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
